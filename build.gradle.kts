@@ -7,7 +7,7 @@ plugins {
 }
 
 group = "cn.bestwu.gradle"
-version = "0.0.1"
+version = "0.0.2"
 
 kotlin {
     copyClassesToJavaOutput = true

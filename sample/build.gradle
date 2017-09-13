@@ -1,6 +1,6 @@
 plugins {
     id 'java'
-    id 'cn.bestwu.idea' version '0.0.1'
+    id 'cn.bestwu.idea' version '0.0.2'
 }
 
 group 'cn.bestwu.gradle'
@@ -17,4 +17,5 @@ dependencies {
 
 ideaProject{
     outputUrl='file://$PROJECT_DIR$/out'
+    gradleJvm='1.7'
 }
