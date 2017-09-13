@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+    id 'cn.bestwu.idea' version '0.0.1'
+}
+
+group 'cn.bestwu.gradle'
+version '1.0'
+
+sourceCompatibility = 1.7
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+}
+
+ideaProject{
+    outputUrl='file://$PROJECT_DIR$/out'
+}
