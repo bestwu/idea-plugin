@@ -19,4 +19,6 @@ repositories {
 
 dependencies {
     compile("org.jetbrains.kotlin:kotlin-stdlib:1.1.4-3")
+
+    testCompile("org.jetbrains.kotlin:kotlin-test-junit:1.1.4-3")
 }
